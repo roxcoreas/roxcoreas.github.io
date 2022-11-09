@@ -1,1 +1,67 @@
 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-DEMGYLTJKY"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-DEMGYLTJKY');
+		</script>
+		<meta charset="UTF-8">
+		<title>Roxana Coreas</title>
+		<meta name="description" content="Personal website for Roxana Coreas">
+		<meta name="keywords" content="biocorona, nanoparticles">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--
+		<meta name="google-site-verification" content="IKbqBRtSOikX3PWPiObJOTuiM6kcG92BwrGFOmV-4Tg" />
+		-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- FONTS -->
+		<link rel="stylesheet" href="assets/fonts/fontawesome/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/fonts/iconsmind/iconsmind.css">
+		<!-- STYLESHEETS -->
+		<link rel="stylesheet" href="assets/css/plugins.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<script type="text/javascript">
+		jQuery.noConflict()(function($){
+			var gridContainer = $('#cubeportfolio');
+			gridContainer.imagesLoaded(function(){
+				gridContainer.cubeportfolio({
+					defaultFilter: '*',
+					filters: '.vl-portfolio-grid-filters',
+					animationType: 'fadeOut',
+					layoutMode: 'grid', //mosaic
+						sortToPreventGaps: true,
+					gapHorizontal: 30,
+					gapVertical: 30,
+					gridAdjustment: 'responsive',
+					mediaQueries: 
+					[{
+						width: 1170,
+						cols: 3,
+					}, {
+						width: 991,
+						cols: 3,
+					}, {
+						width: 767,
+						cols: 2,
+					}, {
+						width: 575,
+						cols: 1,
+					}],
+					displayType: 'default',
+					displayTypeSpeed: 150,
+				});
+			});
+		});
+	</script>
+	<script src="assets/scripts/script.js"></script>
+</html>
+
